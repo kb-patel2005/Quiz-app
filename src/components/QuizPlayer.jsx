@@ -73,8 +73,8 @@ function QuizPlayer({ quiz }) {
             key={opt}
             onClick={() => setSelected(opt)}
             variants={item}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             className={`px-4 py-2 rounded-lg text-left border transition-all duration-150 focus:outline-none ${
               selected === opt
                 ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white ring-2 ring-indigo-300"
