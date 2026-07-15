@@ -23,7 +23,7 @@ function ResultScreen({ score, total, quiz }) {
 
         setSubmitted(true);
       } catch (error) {
-        console.error(error);
+        console.log(error);
       }
 
     }
