@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import quizzesData from "../data/quiz.json";
+import quizzesData from "../data/quiz";
 import QuizPlayer from "../components/QuizPlayer";
 
 function PlayQuiz() {

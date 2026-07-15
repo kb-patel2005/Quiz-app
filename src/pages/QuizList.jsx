@@ -1,6 +1,6 @@
 // src/pages/QuizList.jsx
 import React from "react";
-import quizzesData from "../data/quiz.json";
+import quizzesData from "../data/quiz";
 import QuizCard from "../components/QuizCard";
 
 function QuizList() {

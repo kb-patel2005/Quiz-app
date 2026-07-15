@@ -1,4 +1,3 @@
-// src/components/QuizPlayer.jsx
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ProgressBar from "./ProgressBar";
