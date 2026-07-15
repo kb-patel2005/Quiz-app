@@ -8,7 +8,7 @@ function QuizCard({ quiz }) {
       {/* Thumbnail */}
       <div className="w-[250px]">
         <img
-          src={`../public/images/${quiz.thumbnail}`}
+          src={`../public/${quiz.thumbnail}`}
           alt={quiz.title}
           className="rounded-lg w-full object-cover"
         />
